@@ -14,6 +14,7 @@ html {
 #title {
   background-color: #ffc107;
   color: white;
+  text-align: left;
 }
 h1,
 h2,
@@ -28,16 +29,19 @@ h6 {
 /* Headings */
 .title-heading {
   font-size: 3.5rem;
-  text-align: left;
 }
-.pricing-heading{
-    font-size: 2.5rem;
+.pricing-heading {
+  font-size: 3rem;
 }
 .cta-heading {
   font-size: 3rem;
   margin-bottom: 3%;
 }
+.feature-heading {
+  font-size: 1.8rem;
+}
 
+/* Paragraphs */
 p {
   color: #8f8f8f;
 }
@@ -60,10 +64,9 @@ p {
 .navbar-brand {
   font-size: 2rem;
 }
+
 .nav-item {
   padding: 0 18px;
-}
-.nav-item {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
@@ -71,6 +74,7 @@ p {
 .download-button {
   margin: 3% 5% 3% 0;
 }
+
 i {
   margin: 0 0.428rem;
 }
@@ -98,9 +102,9 @@ i {
   color: white;
 }
 .testimonial-text {
-    font-size: 2.5rem;
-    font-family: "Baloo 2", cursive;
-  }
+  font-size: 2.5rem;
+  font-family: "Baloo 2", cursive;
+}
 .testimonial-image {
   border-radius: 135px;
   width: 10%;
@@ -126,6 +130,7 @@ i {
 }
 .pricing-column {
   padding: 3% 2%;
+  font-size: 1.3rem;
 }
 /* Media query */
 @media (max-width: 1028px) {
@@ -137,12 +142,14 @@ i {
   #title {
     text-align: center;
   }
+  .nav-item {
+    font-size: 1.5rem;
+  }
 }
 /* Cta Section */
 #cta {
   background-color: #ffc107;
   color: white;
- 
 }
 .cta-container {
   padding: 10% 9%;
