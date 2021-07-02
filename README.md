@@ -1,2 +1,5 @@
 # Startup-Landing-Page
-A responsive website for any startup with a app based product.
+This is a demo responsive website for a startup.
+
+## Styling
+Primarily bootstrap 4 along with CSS is used for responsive design and styling respectively.
